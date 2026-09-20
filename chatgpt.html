@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="松山千春、山下達郎、浜田省吾の経歴、代表作、活動の特徴、デビュー50周年前後の状況を公式資料中心にまとめた比較レポート。">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
+  <title>松山千春・山下達郎・浜田省吾｜約50年の軌跡</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fff7ed;
+      --surface: #ffffff;
+      --ink: #172025;
+      --muted: #59656b;
+      --line: #fdba74;
+      --indigo: #243b6b;
+      --brand: #c2410c;
+      --copper: #a24e32;
+      --green: #1f695e;
+      --gold: #c28a2c;
+      --soft-indigo: #e7ebf3;
+      --soft-copper: #f4e9e5;
+      --soft-green: #e4efed;
+      --shadow: 0 14px 38px rgba(23, 32, 37, .08);
+      --display: Meiryo, "メイリオ", sans-serif;
+      --body: Meiryo, "メイリオ", sans-serif;
+      --data: Meiryo, "メイリオ", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--body);
+      line-height: 1.85;
+      text-rendering: optimizeLegibility;
+    }
+    a { color: var(--brand); text-underline-offset: .18em; }
+    a:hover { color: #7c2d12; }
+    a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 20;
+      padding: .65rem 1rem;
+      background: var(--ink);
+      color: #fff;
+    }
+    .skip-link:focus { top: 1rem; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 620px;
+      color: #fff;
+      background: var(--brand);
+      isolation: isolate;
+    }
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.17);
+      z-index: -1;
+    }
+    .hero::before {
+      width: 580px;
+      height: 580px;
+      right: -160px;
+      top: -120px;
+      box-shadow: 0 0 0 36px rgba(255,255,255,.035), 0 0 0 72px rgba(255,255,255,.025), 0 0 0 108px rgba(255,255,255,.018);
+    }
+    .hero::after {
+      width: 110px;
+      height: 110px;
+      right: 73px;
+      top: 115px;
+      background: #fde68a;
+      border: 18px solid rgba(255,255,255,.9);
+    }
+    .hero-inner,
+    main,
+    .footer-inner {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+    .hero-inner { padding: 58px 0 64px; }
+    .eyebrow {
+      margin: 0 0 1.5rem;
+      font-family: var(--data);
+      font-size: .78rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      opacity: .8;
+    }
+    h1, h2, h3 { line-height: 1.35; }
+    h1 {
+      max-width: 800px;
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(2.6rem, 7vw, 5.9rem);
+      font-weight: 600;
+      letter-spacing: -.045em;
+    }
+    .hero-lead {
+      max-width: 720px;
+      margin: 1.7rem 0 0;
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: rgba(255,255,255,.82);
+    }
+    .era-mark {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      margin-top: 3.2rem;
+      font-family: var(--data);
+    }
+    .era-mark strong { font-size: clamp(2rem, 5vw, 4rem); font-weight: 400; }
+    .era-mark span { color: rgba(255,255,255,.7); }
+    .hero-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .55rem;
+      margin-top: 2rem;
+    }
+    .hero-nav a {
+      padding: .38rem .72rem;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: .86rem;
+    }
+    .hero-nav a:hover { background: rgba(255,255,255,.1); }
+
+    main { padding: 78px 0 96px; }
+    .section { margin-top: 92px; scroll-margin-top: 1.5rem; }
+    .section:first-child { margin-top: 0; }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(180px, .42fr) 1fr;
+      gap: 2rem;
+      align-items: end;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-kicker {
+      margin: 0;
+      color: var(--muted);
+      font-family: var(--data);
+      font-size: .76rem;
+      letter-spacing: .14em;
+    }
+    h2 {
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 3.1rem);
+      font-weight: 600;
+    }
+    h3 { margin: 0; font-size: 1.2rem; }
+    .summary {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 2.2rem;
+      margin-top: 2rem;
+    }
+    .summary p { margin: 0; font-size: 1.07rem; }
+    .thesis {
+      padding: 1.2rem 1.35rem;
+      background: var(--surface);
+      border-left: 5px solid var(--brand);
+      box-shadow: var(--shadow);
+    }
+    .thesis strong { display: block; margin-bottom: .35rem; }
+
+    .three-axes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 2.4rem;
+    }
+    .axis-card {
+      min-height: 220px;
+      padding: 1.35rem;
+      background: var(--surface);
+      border-top: 6px solid currentColor;
+      box-shadow: var(--shadow);
+    }
+    .axis-card.matsuyama { color: var(--copper); }
+    .axis-card.yamashita { color: var(--green); }
+    .axis-card.hamada { color: var(--brand); }
+    .axis-card .name { color: var(--ink); font-size: 1.02rem; font-weight: 700; }
+    .axis-card .axis-word {
+      margin: .8rem 0 .45rem;
+      font-family: var(--display);
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .axis-card p { margin: 0; color: var(--muted); }
+
+    .numbers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      margin-top: 2.4rem;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+    .number {
+      padding: 1.5rem;
+      background: var(--surface);
+    }
+    .number .value {
+      display: block;
+      font-family: var(--data);
+      font-size: clamp(1.9rem, 4vw, 3.2rem);
+      line-height: 1.2;
+    }
+    .number .label { display: block; margin-top: .5rem; color: var(--muted); }
+
+    .timeline-chart {
+      margin-top: 2rem;
+      padding: 1.8rem 1.4rem 1rem;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow-x: auto;
+    }
+    .timeline-chart svg { display: block; min-width: 900px; width: 100%; height: auto; }
+    .timeline-chart text { font-family: var(--body); fill: var(--ink); }
+    .timeline-chart .year { font-family: var(--data); fill: var(--muted); font-size: 13px; }
+    .timeline-chart .person { font-weight: 700; font-size: 16px; }
+    .timeline-chart .event { font-size: 13px; }
+    .timeline-chart .grid { stroke: var(--line); stroke-width: 1; }
+    .timeline-chart .base { stroke: var(--line); stroke-width: 4; stroke-linecap: round; }
+    .timeline-chart .m-line { stroke: var(--copper); }
+    .timeline-chart .y-line { stroke: var(--green); }
+    .timeline-chart .h-line { stroke: var(--indigo); }
+    .timeline-chart .track { stroke-width: 8; stroke-linecap: round; }
+    .timeline-chart .m-dot { fill: var(--copper); }
+    .timeline-chart .y-dot { fill: var(--green); }
+    .timeline-chart .h-dot { fill: var(--indigo); }
+    .chart-note { margin: .8rem 0 0; color: var(--muted); font-size: .82rem; }
+
+    .table-wrap { margin-top: 2rem; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; background: var(--surface); }
+    th, td { padding: .9rem 1rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-size: .82rem; letter-spacing: .04em; white-space: nowrap; }
+    td:first-child { font-weight: 700; white-space: nowrap; }
+
+    .profile {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 2.5rem;
+      margin-top: 3rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--line);
+    }
+    .profile:first-of-type { border-top: 0; }
+    .profile-id { position: sticky; top: 1rem; align-self: start; }
+    .profile-id .artist-name {
+      margin: 0;
+      font-family: var(--display);
+      font-size: 2.15rem;
+    }
+    .profile-id .origin { margin: .45rem 0 0; color: var(--muted); }
+    .profile-id .tag {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: .3rem .65rem;
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      font-size: .8rem;
+    }
+    .profile.matsuyama .profile-id { color: var(--copper); }
+    .profile.yamashita .profile-id { color: var(--green); }
+    .profile.hamada .profile-id { color: var(--indigo); }
+    .profile-copy > p:first-child { margin-top: 0; font-size: 1.06rem; }
+    .milestones {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: .75rem 1.2rem;
+      margin: 1.4rem 0;
+      padding: 0;
+      list-style: none;
+    }
+    .milestones li {
+      padding: .8rem 0 .8rem 1rem;
+      border-left: 3px solid var(--line);
+    }
+    .milestones time { display: block; font-family: var(--data); font-size: .8rem; color: var(--muted); }
+    .profile.matsuyama .milestones li { border-color: var(--copper); }
+    .profile.yamashita .milestones li { border-color: var(--green); }
+    .profile.hamada .milestones li { border-color: var(--indigo); }
+    .source-inline { font-size: .87rem; color: var(--muted); }
+
+    .anniversary-box {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .anniversary-item { padding: 1.25rem; background: var(--surface); border-bottom: 5px solid var(--line); }
+    .anniversary-item time { display: block; margin-bottom: .55rem; font-family: var(--data); color: var(--muted); }
+    .anniversary-item strong { display: block; margin-bottom: .45rem; }
+    .anniversary-item p { margin: 0; color: var(--muted); }
+    .anniversary-item.m { border-color: var(--copper); }
+    .anniversary-item.y { border-color: var(--green); }
+    .anniversary-item.h { border-color: var(--indigo); }
+
+    .sources { counter-reset: source; margin: 2rem 0 0; padding: 0; list-style: none; }
+    .sources li {
+      counter-increment: source;
+      display: grid;
+      grid-template-columns: 2.4rem 1fr;
+      gap: .7rem;
+      padding: .8rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .sources li::before {
+      content: counter(source, decimal-leading-zero);
+      font-family: var(--data);
+      color: var(--muted);
+    }
+    .sources small { display: block; color: var(--muted); }
+    .method-note {
+      margin-top: 2rem;
+      padding: 1rem 1.2rem;
+      background: #ffedd5;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    footer { color: rgba(255,255,255,.85); background: #431407; }
+    .footer-inner { padding: 2rem 0; font-size: .82rem; }
+
+    @media (max-width: 800px) {
+      .hero { min-height: auto; }
+      .hero::before { right: -360px; opacity: .65; }
+      .hero::after { right: 18px; top: 48px; width: 64px; height: 64px; border-width: 10px; }
+      .section-head, .summary, .profile { grid-template-columns: 1fr; }
+      .three-axes, .numbers, .anniversary-box { grid-template-columns: 1fr; }
+      .profile-id { position: static; }
+      .milestones { grid-template-columns: 1fr; }
+      main { padding-top: 58px; }
+      .section { margin-top: 70px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+
+    @media print {
+      @page { size: A4; margin: 13mm; }
+      body { background: #fff; font-size: 10pt; line-height: 1.55; }
+      .skip-link, .hero-nav { display: none; }
+      .hero { min-height: auto; color: #000; background: #fff; border-bottom: 2px solid #000; }
+      .hero::before, .hero::after { display: none; }
+      .hero-inner { padding: 0 0 8mm; }
+      .hero-lead, .era-mark span, .eyebrow { color: #333; }
+      main { width: 100%; padding: 8mm 0 0; }
+      .section { margin-top: 12mm; break-inside: avoid; }
+      .profile { grid-template-columns: 42mm 1fr; break-inside: auto; }
+      .profile-id { position: static; }
+      .axis-card, .number, .timeline-chart, .anniversary-item { box-shadow: none; }
+      a { color: #000; text-decoration: none; overflow-wrap: anywhere; }
+      footer { color: #000; background: #fff; border-top: 1px solid #000; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Research report / verified 2026-09-20</p>
+      <h1>三人、三様。<br>歌い続けた約50年。</h1>
+      <p class="hero-lead">松山千春、山下達郎、浜田省吾。1975～1977年にデビューした3人の経歴、代表作、活動の特徴、50周年前後の現在地を、公式資料を中心に比較する。</p>
+      <div class="era-mark" aria-label="調査対象期間 1975年から2026年">
+        <strong>1975—2026</strong><span>日本のポピュラー音楽を横断する51年間</span>
+      </div>
+      <nav class="hero-nav" aria-label="ページ内メニュー">
+        <a href="#overview">結論</a>
+        <a href="#timeline">比較年表</a>
+        <a href="#profiles">3人の経歴</a>
+        <a href="#anniversary">50周年の数え方</a>
+        <a href="#sources">出典</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" id="overview">
+      <div class="section-head">
+        <p class="section-kicker">01 / OVERVIEW</p>
+        <h2>結論：同時代、異なる強み</h2>
+      </div>
+      <div class="summary">
+        <p>3人はほぼ同時期にデビューし、いずれも自作曲とライブ活動を長期にわたり継続してきた。一方、長く支持された理由は同じではない。松山千春は歌と言葉、山下達郎は音づくりとプロデュース、浜田省吾はライブと社会を見つめる歌を、それぞれ活動の中心に置いている。</p>
+        <aside class="thesis">
+          <strong>比較の要点</strong>
+          売上や公演数だけで優劣を付けず、「何を中心に50年続けたか」を見ると、3人の違いが明確になる。
+        </aside>
+      </div>
+
+      <div class="three-axes" aria-label="3人の活動の軸">
+        <article class="axis-card matsuyama">
+          <div class="name">松山千春</div>
+          <div class="axis-word">歌と言葉</div>
+          <p>北海道・足寄を原点に、人生、愛、別れを自らの声で伝え続ける。</p>
+        </article>
+        <article class="axis-card yamashita">
+          <div class="name">山下達郎</div>
+          <div class="axis-word">音づくり</div>
+          <p>歌唱、作編曲、演奏、多重録音、プロデュースを一体化する。</p>
+        </article>
+        <article class="axis-card hamada">
+          <div class="name">浜田省吾</div>
+          <div class="axis-word">道と社会</div>
+          <p>全国ツアーを軸に、青春、労働、家族、社会のひずみを歌う。</p>
+        </article>
+      </div>
+
+      <div class="numbers" aria-label="代表的な活動記録">
+        <div class="number"><span class="value">85枚</span><span class="label">松山千春：2025年時点の通算シングル数</span></div>
+        <div class="number"><span class="value">40年</span><span class="label">山下達郎：「クリスマス・イブ」週間TOP100連続年数</span></div>
+        <div class="number"><span class="value">196公演</span><span class="label">浜田省吾：ON THE ROAD 2001、約60万人動員</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-head">
+        <p class="section-kicker">02 / TIMELINE</p>
+        <h2>共通年表で見る主要な節目</h2>
+      </div>
+
+      <figure class="timeline-chart">
+        <svg viewBox="0 0 1000 440" role="img" aria-labelledby="chart-title chart-desc">
+          <title id="chart-title">松山千春、山下達郎、浜田省吾の主要経歴比較</title>
+          <desc id="chart-desc">1975年から2026年までのデビュー、ヒット、代表作、周年の主な出来事を3本の時間軸で示しています。</desc>
+
+          <g aria-hidden="true">
+            <line class="grid" x1="150" y1="45" x2="150" y2="385"/><line class="grid" x1="303" y1="45" x2="303" y2="385"/>
+            <line class="grid" x1="472" y1="45" x2="472" y2="385"/><line class="grid" x1="641" y1="45" x2="641" y2="385"/>
+            <line class="grid" x1="810" y1="45" x2="810" y2="385"/><line class="grid" x1="910" y1="45" x2="910" y2="385"/>
+          </g>
+          <g class="year" aria-hidden="true">
+            <text x="150" y="28" text-anchor="middle">1975</text><text x="303" y="28" text-anchor="middle">1985</text>
+            <text x="472" y="28" text-anchor="middle">1995</text><text x="641" y="28" text-anchor="middle">2005</text>
+            <text x="810" y="28" text-anchor="middle">2015</text><text x="910" y="28" text-anchor="middle">2026</text>
+          </g>
+
+          <text class="person" x="20" y="105">松山千春</text>
+          <line class="base" x1="150" y1="100" x2="910" y2="100"/><line class="track m-line" x1="184" y1="100" x2="910" y2="100"/>
+          <circle class="m-dot" cx="184" cy="100" r="7"/><text class="event" x="184" y="78" text-anchor="middle">1977 デビュー</text>
+          <circle class="m-dot" cx="201" cy="100" r="7"/><text class="event" x="218" y="126">1978 季節の中で</text>
+          <circle class="m-dot" cx="252" cy="100" r="7"/><text class="event" x="252" y="78" text-anchor="middle">1981 長い夜</text>
+          <circle class="m-dot" cx="489" cy="100" r="7"/><text class="event" x="489" y="126" text-anchor="middle">1996 君を忘れない</text>
+          <circle class="m-dot" cx="910" cy="100" r="9"/><text class="event" x="900" y="78" text-anchor="end">2026 50周年イヤー</text>
+
+          <text class="person" x="20" y="235">山下達郎</text>
+          <line class="base" x1="150" y1="230" x2="910" y2="230"/><line class="track y-line" x1="150" y1="230" x2="910" y2="230"/>
+          <circle class="y-dot" cx="150" cy="230" r="7"/><text class="event" x="150" y="207" text-anchor="start">1975 SUGAR BABE</text>
+          <circle class="y-dot" cx="235" cy="230" r="7"/><text class="event" x="235" y="256" text-anchor="middle">1980 RIDE ON TIME</text>
+          <circle class="y-dot" cx="286" cy="230" r="7"/><text class="event" x="286" y="207" text-anchor="middle">1983 クリスマス・イブ</text>
+          <circle class="y-dot" cx="370" cy="230" r="7"/><text class="event" x="370" y="256" text-anchor="middle">1989 同曲1位</text>
+          <circle class="y-dot" cx="894" cy="230" r="9"/><text class="event" x="894" y="207" text-anchor="end">2025 デビュー50周年</text>
+
+          <text class="person" x="20" y="365">浜田省吾</text>
+          <line class="base" x1="150" y1="360" x2="910" y2="360"/><line class="track h-line" x1="167" y1="360" x2="910" y2="360"/>
+          <circle class="h-dot" cx="150" cy="360" r="7"/><text class="event" x="150" y="337" text-anchor="start">1975 AIDO</text>
+          <circle class="h-dot" cx="167" cy="360" r="7"/><text class="event" x="167" y="386" text-anchor="start">1976 ソロ</text>
+          <circle class="h-dot" cx="269" cy="360" r="7"/><text class="event" x="269" y="337" text-anchor="middle">1982 ON THE ROAD</text>
+          <circle class="h-dot" cx="320" cy="360" r="7"/><text class="event" x="320" y="386" text-anchor="middle">1986 J.BOY</text>
+          <circle class="h-dot" cx="421" cy="360" r="7"/><text class="event" x="421" y="337" text-anchor="middle">1992 悲しみは雪のように</text>
+          <circle class="h-dot" cx="910" cy="360" r="9"/><text class="event" x="900" y="386" text-anchor="end">2026 ソロ50周年</text>
+        </svg>
+        <figcaption class="chart-note">主要な出来事を選択した比較年表。作品・公演のすべてを網羅したものではありません。</figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>項目</th><th>松山千春</th><th>山下達郎</th><th>浜田省吾</th></tr></thead>
+          <tbody>
+            <tr><td>生年・出身</td><td>1955年・北海道足寄町</td><td>1953年・東京都</td><td>1952年・広島県竹原市</td></tr>
+            <tr><td>デビュー</td><td>1977年「旅立ち」</td><td>1975年SUGAR BABE、1976年ソロ</td><td>1975年AIDO、1976年ソロ</td></tr>
+            <tr><td>大きな転機</td><td>1978年「季節の中で」</td><td>1980年「RIDE ON TIME」</td><td>1986年『J.BOY』</td></tr>
+            <tr><td>活動の中心</td><td>自作曲、歌唱、全国ツアー</td><td>録音制作、作編曲、プロデュース、ライブ</td><td>全国ツアー、アルバム制作、社会的テーマ</td></tr>
+            <tr><td>周年の基準</td><td>2026年から公式「50周年イヤー」</td><td>2025年にグループデビュー50周年</td><td>2026年にソロデビュー50周年</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="profiles">
+      <div class="section-head">
+        <p class="section-kicker">03 / PROFILES</p>
+        <h2>これまでの経歴と主な活躍</h2>
+      </div>
+
+      <article class="profile matsuyama">
+        <header class="profile-id">
+          <h3 class="artist-name">松山千春</h3>
+          <p class="origin">1955年生／北海道足寄町</p>
+          <span class="tag">歌と言葉</span>
+        </header>
+        <div class="profile-copy">
+          <p>1975年の「全国フォーク音楽祭」北海道大会への出場をきっかけに、1977年1月25日、「旅立ち／初恋」でデビューした。北海道の自然や人生、愛、別れを、自らの言葉と伸びやかな声で伝えるフォークシンガーとして全国的な支持を得た。</p>
+          <ul class="milestones">
+            <li><time>1977</time>「旅立ち」「銀の雨」</li>
+            <li><time>1978</time>「季節の中で」が初のオリコン1位</li>
+            <li><time>1981</time>ロック色を強めた「長い夜」が1位</li>
+            <li><time>1996</time>ドラマ主題歌「君を忘れない」</li>
+            <li><time>2016</time>本人選曲の40周年記念ベスト全60曲</li>
+            <li><time>2025</time>「君の明日」で通算85枚目のシングル</li>
+          </ul>
+          <p>「季節の中で」は34週、「長い夜」は28週ランキングに登場した。フォークからポップ、ロック調へサウンドを広げながらも、歌そのものを中心に据える姿勢を維持している。2026年1月25日から公式の「デビュー50周年イヤー」が始まり、周年ツアーや過去映像の配信が進められている。</p>
+          <p class="source-inline">根拠：<a href="https://columbia.jp/artist-info/chiharu/prof.html">日本コロムビア公式プロフィール</a>、<a href="https://contents.oricon.co.jp/prof/219971/rank/single/">オリコンランキング</a>、<a href="https://columbia.jp/chiharu/info.html">50周年イヤー公式情報</a></p>
+        </div>
+      </article>
+
+      <article class="profile yamashita">
+        <header class="profile-id">
+          <h3 class="artist-name">山下達郎</h3>
+          <p class="origin">1953年生／東京都</p>
+          <span class="tag">音づくり</span>
+        </header>
+        <div class="profile-copy">
+          <p>1975年、シュガー・ベイブの『SONGS』と「DOWN TOWN」でデビュー。1976年、アルバム『CIRCUS TOWN』でソロ活動を開始した。歌唱だけでなく、作詞・作曲・編曲・演奏・多重録音・音響調整・プロデュースを一体化させている。</p>
+          <ul class="milestones">
+            <li><time>1979</time>『MOONGLOW』が日本レコード大賞ベスト・アルバム賞</li>
+            <li><time>1980</time>「RIDE ON TIME」で全国的にブレイク</li>
+            <li><time>1983</time>『MELODIES』に「クリスマス・イブ」を収録</li>
+            <li><time>1984—</time>竹内まりや作品を本格的にプロデュース</li>
+            <li><time>1989</time>「クリスマス・イブ」がオリコン1位</li>
+            <li><time>2015</time>芸術選奨文部科学大臣賞</li>
+          </ul>
+          <p>一人多重録音によるア・カペラ作品、CM音楽、他アーティストへの提供曲など、歌手の枠を越えて活動してきた。「クリスマス・イブ」は1986～2025年の40年連続でオリコン週間シングルTOP100入りし、ギネス世界記録として再認定された。2025年にはデビュー50周年記念盤、再発企画、11都市26公演の全国ホールツアーを実施した。</p>
+          <p class="source-inline">根拠：<a href="https://www.tatsuro.co.jp/biography/">山下達郎公式バイオグラフィー</a>、<a href="https://www.tatsuro.co.jp/news/">山下達郎公式ニュース</a></p>
+        </div>
+      </article>
+
+      <article class="profile hamada">
+        <header class="profile-id">
+          <h3 class="artist-name">浜田省吾</h3>
+          <p class="origin">1952年生／広島県竹原市</p>
+          <span class="tag">道と社会</span>
+        </header>
+        <div class="profile-copy">
+          <p>1975年にAIDOのドラマーとしてデビューし、1976年4月21日、「路地裏の少年」とアルバム『生まれたところを遠く離れて』でソロデビュー。小規模なライブ会場をライトバンで回る活動から始め、ライブを中心に支持を拡大した。</p>
+          <ul class="milestones">
+            <li><time>1982</time>ツアー名を「ON THE ROAD」と命名</li>
+            <li><time>1986</time>『J.BOY』が初のアルバムチャート1位</li>
+            <li><time>1988</time>渚園野外公演で5万2,000人を動員</li>
+            <li><time>1992</time>「悲しみは雪のように」が1位、170万枚</li>
+            <li><time>1998—2001</time>127カ所・196公演・約60万人の長期ツアー</li>
+            <li><time>2011—2012</time>東日本大震災復興支援公演</li>
+          </ul>
+          <p>青春、恋愛、家族、労働、都市生活、戦争、格差など、個人の物語と社会状況を結び付けて歌ってきた。2025～2026年の「ON THE ROAD」ツアーは前半28公演、後半26公演の計54公演。2026年4月21日にソロデビュー50周年を迎え、デビューアルバムのリミックス盤などが発売された。</p>
+          <p class="source-inline">根拠：<a href="https://shogo.r-s.co.jp/profile">浜田省吾公式プロフィール</a>、<a href="https://shogo.r-s.co.jp/news/page/3?n=82771">50周年公式情報</a>、<a href="https://www.sonymusic.co.jp/artist/ShogoHamada/profile/">ソニーミュージック公式プロフィール</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="anniversary">
+      <div class="section-head">
+        <p class="section-kicker">04 / ANNIVERSARY</p>
+        <h2>「50周年」の起点は同じではない</h2>
+      </div>
+      <div class="anniversary-box">
+        <article class="anniversary-item y">
+          <time>1975 → 2025</time>
+          <strong>山下達郎</strong>
+          <p>シュガー・ベイブでのデビューを起点として、2025年が50周年。ソロデビューは1976年。</p>
+        </article>
+        <article class="anniversary-item h">
+          <time>1976 → 2026</time>
+          <strong>浜田省吾</strong>
+          <p>1975年のAIDOではなく、1976年4月21日のソロデビューを起点として50周年。</p>
+        </article>
+        <article class="anniversary-item m">
+          <time>1977 → 2026/27</time>
+          <strong>松山千春</strong>
+          <p>デビューは1977年1月25日。公式は2026年1月25日から、満50周年へ向かう期間を「50周年イヤー」と表記。</p>
+        </article>
+      </div>
+      <div class="method-note">注意：「3人とも2026年に50周年」と一括りにすると正確ではありません。本レポートでは、各公式サイトが採用している周年の起点を優先しています。</div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="section-head">
+        <p class="section-kicker">05 / SOURCES</p>
+        <h2>主な出典</h2>
+      </div>
+      <ol class="sources">
+        <li><div><a href="https://columbia.jp/artist-info/chiharu/prof.html">松山千春 公式プロフィール</a><small>日本コロムビア／出身、誕生日、デビュー経緯</small></div></li>
+        <li><div><a href="https://columbia.jp/chiharu/info.html">松山千春 インフォメーション</a><small>日本コロムビア／50周年イヤー、周年企画</small></div></li>
+        <li><div><a href="https://columbia.jp/artist-info/chiharu/discography/COCA-18292.html">「君の明日」作品情報</a><small>日本コロムビア／通算85枚目のシングル</small></div></li>
+        <li><div><a href="https://contents.oricon.co.jp/prof/219971/rank/single/">松山千春 シングルランキング</a><small>オリコン／最高順位、登場週数</small></div></li>
+        <li><div><a href="https://www.tatsuro.co.jp/biography/">山下達郎 公式バイオグラフィー</a><small>デビュー、作品、受賞、プロデュース活動</small></div></li>
+        <li><div><a href="https://www.tatsuro.co.jp/news/">山下達郎 公式ニュース</a><small>50周年企画、ツアー、ギネス世界記録</small></div></li>
+        <li><div><a href="https://shogo.r-s.co.jp/profile">浜田省吾 公式プロフィール</a><small>デビュー、ライブ活動、売上、公演記録</small></div></li>
+        <li><div><a href="https://shogo.r-s.co.jp/news/page/3?n=82771">浜田省吾 50周年公式情報</a><small>ソロデビュー50周年、記念盤</small></div></li>
+        <li><div><a href="https://www.sonymusic.co.jp/artist/ShogoHamada/profile/">浜田省吾 ソニーミュージック公式プロフィール</a><small>代表曲とライブ中心の活動方針</small></div></li>
+      </ol>
+      <div class="method-note">調査基準日：2026年9月20日。公式サイト・レコード会社・オリコンを優先し、数値の単位が異なるため、85枚・40年・196公演を直接の優劣比較には使用していません。</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">松山千春・山下達郎・浜田省吾｜約50年の軌跡　調査基準日：2026年9月20日</div>
+  </footer>
+</body>
+</html>
